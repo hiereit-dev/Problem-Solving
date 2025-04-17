@@ -12,8 +12,5 @@ func solution(_ s:String) -> Int{
             stack.append(str)
         }
     }
-    
     return stack.isEmpty ? 1 : 0
-    
-    
 }
