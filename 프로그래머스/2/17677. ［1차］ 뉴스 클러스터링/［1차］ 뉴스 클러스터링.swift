@@ -10,7 +10,6 @@ func solution(_ str1:String, _ str2:String) -> Int {
             arr2.remove(at: index)
             dup += 1
         }
-        
     }
     
     if total == 0 { return 65536 }
